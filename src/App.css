@@ -1,0 +1,122 @@
+
+.App {
+  text-align: center;
+}
+
+.block {
+  flex: 1; /* make the boxes expand to fill the available space */
+  height: 100px;
+  margin: 10px; /* add some margin between the boxes */
+
+}
+
+.button {
+  margin: 10px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 35px;
+  margin-right: 10px;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.dissapear {
+  display: none;
+}
+
+.configButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.configFields {
+  margin: 10px;
+}
+
+.mainBlock {
+  display: flex;
+}
+
+
+.taskBg {
+
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+
+}
+
+.taskBg .done {
+  background-color: green;
+  
+}
+
+.taskBg .iconwrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+
+}
+
+.taskBg .iconwrapper span {
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: #00ff89;
+}
+
+.taskBg .iconwrapper span:hover {
+  color: yellow;
+}
+
+.taskText {
+  color:aliceblue;
+}
+
+.updateButton {
+  margin-right: 40px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-field {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 120px; /* adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40px; /* set the desired height */
+  flex-basis: calc(33.33% - 10px); /* each field occupies one third of the available width, minus some margin */
+  margin-bottom: 10px;
+  
+}
+
+
+
+.form-select {
+  width: 120px; /* adjust the width as needed */
+  height: 40px; /* set the same height as form-field */
+}
+
+.label-class {
+  text-align: left;
+}
